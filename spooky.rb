@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require_relative 'ui.rb'
+require_relative 'cli.rb'
 
-UI.new
+CLI.new

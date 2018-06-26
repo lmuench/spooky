@@ -5,7 +5,7 @@ require 'tty-screen'
 require 'tty-spinner'
 
 # Command line interface
-class UI
+class CLI
   def initialize
     @server = Server.new
     @prompt = TTY::Prompt.new
